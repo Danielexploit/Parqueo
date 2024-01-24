@@ -119,7 +119,7 @@ class Store{
         //Delete content of input's
         UI.clearInput();
 
-        UI.showAlert('Coche agregado con éxito al estacionamiento','success');
+        UI.showAlert('Carro agregado con éxito al estacionamiento','success');
 
     });
 //Event Remove
@@ -131,7 +131,7 @@ class Store{
         //Call to Store function to remove entry from the local storage
         Store.removeEntries(licensePlate);
         //Show alert that entry was removed
-        UI.showAlert('Coche eliminado con éxito de la lista de estacionamiento','success');
+        UI.showAlert('Carro eliminado con éxito de la lista de estacionamiento','success');
     })
 
 //Event Search
